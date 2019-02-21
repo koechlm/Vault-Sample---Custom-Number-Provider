@@ -1,0 +1,15 @@
+﻿<Window x:Name="m_helpWindow" x:Class="CustomNumbering.SetupHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomNumbering"
+        mc:Ignorable="d"
+        Title="SDK Example Setup Help" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Height="340" Width="780">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="m_helpText" Margin="0" TextWrapping="Wrap" Text="There are a few steps to setting up the SDK sample:&#xA;&#xA;1. Compile the 'CustomNumberProvider' project&#xA;2. Copy CustomNumberProvider.dll from 'CustomNumberProvider' to your Vault Server's .../web/services/bin/ folder&#xA;3. Include the following in your Vault Server's web.config, under the connectivity.core/numberProviders node:&#xA;&#xA;&lt;numberProvider name=&quot;CustomNumberingProvider&quot; type=&quot;CustomNumberingProvider.CustomNumberingProvider, CustomNumberingProvider&quot; canCache=&quot;false&quot;&gt;&#xA;&#x9;&lt;!-- &lt;initializationParm value=&quot;Your Value Here&quot; /&gt; --&gt;&#xA;&lt;/numberProvider&gt;&#xA;&#xD;&#xA;4. Perform an IIS reset to complete the inclusion of CustomNumberingProvider&#xD;&#xA;&#xA;You can uncomment the initializationParm node to set a value for parameters passed to your custom numbering provider's Init() method. &#xA;More than one initializationParm node under a numberProvider is supported.&#xA;&#xA;Note: for this sample, Auto-generated Fields are supported by CustomNumberingProvider, and Predefined List Fields are unsupported by CustomNumberingProvider.&#xD;&#xA;In addition, for this sample, the first initializationParm value is used as a prefix to the generated numbers." VerticalScrollBarVisibility="Disabled" FontSize="11" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="{x:Null}" IsReadOnly="True" IsInactiveSelectionHighlightEnabled="True"/>
+    </Grid>
+</Window>
