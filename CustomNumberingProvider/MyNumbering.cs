@@ -4,9 +4,9 @@ using System.Linq;
 using Autodesk.DataManagement.Server.Extensibility.Numbering;
 using SQL = System.Data.SqlClient;
 
-namespace CustomNumberingProvider
+namespace MyNumbering
 {
-    public class CustomNumberingProvider : INumberProvider
+    public class MyNumbering : INumberProvider
     {
         private static string m_initializationParmPrefix = "";
 

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CopyNodeToWebConfig>
+  
+  <!--Copy the node below to web.config connectivity.Core.numberProviders-->
+
+  <numberProvider name="CustomNumberingProvider" type="MyNumbering.MyNumbering, MyNumbering" canCache="false">
+    <!--<initializationParm value="Your Value Here" />-->
+  </numberProvider>
+  
+</CopyNodeToWebConfig>

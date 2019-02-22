@@ -7,8 +7,8 @@
     <ProjectGuid>{327D3EE0-29B2-457D-AC75-811329823777}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CustomNumberingProvider</RootNamespace>
-    <AssemblyName>CustomNumberingProvider</AssemblyName>
+    <RootNamespace>MyNumbering</RootNamespace>
+    <AssemblyName>MyNumbering</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomNumberingProvider.cs" />
+    <Compile Include="MyNumbering.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Supplemental-Node-for-Web.Config.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

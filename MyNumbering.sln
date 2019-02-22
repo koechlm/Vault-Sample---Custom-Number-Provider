@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNumberingGUI", "CustomNumberingGUI\CustomNumberingGUI.csproj", "{2AFB13EB-3225-45C6-9279-08872BA34205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNumberingProvider", "CustomNumberingProvider\CustomNumberingProvider.csproj", "{327D3EE0-29B2-457D-AC75-811329823777}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyNumbering", "CustomNumberingProvider\MyNumbering.csproj", "{327D3EE0-29B2-457D-AC75-811329823777}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
