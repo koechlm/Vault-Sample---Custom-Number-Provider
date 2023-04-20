@@ -51,7 +51,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="STEP-1_MyNumbering-Sample_SQL-Script-Create-Database.sql" />
+    <Content Include="STEP-2_MyNumbering-Sample_SQL-Script-Create-Table.sql" />
     <Content Include="Supplemental-Node-for-Web.Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Autodesk Vault Professional - Custom Numbering Sample.pptx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
