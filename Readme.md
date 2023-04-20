@@ -3,6 +3,7 @@ CustomNumbering demonstrates the use of user-created numbering generation on the
 its interactions with the Vault Client.
 
 Find a powerpoint slide introducing and explaining this sample more in detail in the subfolder of this solution: https://github.com/koechlm/Vault-Sample---Custom-Number-Provider/blob/master/CustomNumberingProvider/Autodesk%20Vault%20Professional%20-%20Custom%20Numbering%20Sample.pptx. All supplemental files listed in the slide deck can be found within the same solution subfolder.
+This sample targets introducing a concept and does not reflect best practices, e.g., we never recommend adding custom SQL tables to the AutodeskVault SQL instance in production environments.
 
 CustomNumbering contains the following features/concepts:
 - Select entity class with combobox control
